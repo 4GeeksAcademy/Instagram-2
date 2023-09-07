@@ -1,0 +1,42 @@
+body {
+    background-color: gray;
+   }
+
+#title {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.post {
+    background-color: white;
+    width: 500px;
+    margin: auto;
+}
+
+.post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+}
+
+.post img {
+    width: 450px;
+    padding: 25px;
+    padding-top: 0px;
+}
+
+.post .post-body {
+    padding-inline: 30px;
+    padding-bottom: 5px;
+}
+
+.post .post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 30px;
+}
