@@ -7,6 +7,8 @@ body {
     width: 500px;
     margin: auto;
     text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 
@@ -14,6 +16,9 @@ body {
     background-color: white;
     width: 500px;
     margin: auto;
+    margin-top: 5px;
+    border-style: double;
+    border-radius: 4px;
 }
 
 .post-header {
@@ -24,19 +29,32 @@ body {
     padding-inline: 30px;
 }
 
-.post img {
-    width: 450px;
-    padding: 25px;
-    padding-top: 0px;
+.post-header .header {
+    display: flex;
+    align-items: center;
 }
 
-.post .post-body {
-    padding-inline: 30px;
-    padding-bottom: 5px;
+h2 {
+    padding-left: 5px;
+}
+
+.post img {
+    width: 500px;
+    /* padding: 25px; */
+    padding-top: 0px;
 }
 
 .post .post-icons {
     display: flex;
     justify-content: space-between;
     padding-inline: 30px;
+}
+
+i {
+    font-size: 30px;
+}
+
+.post .post-body {
+    padding-inline: 30px;
+    padding-bottom: 5px;
 }
